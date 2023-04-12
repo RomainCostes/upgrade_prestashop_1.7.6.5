@@ -1,7 +1,6 @@
 <?php
 
 // this script is used to upgrade the database from prestashop version 1.7.6.5 to version 1.7.8.8
-// we just need to copy the data from old database called old_ then paste it to new database called ps_
 
 // Sauvegardez les fichiers et la base de données existants
 system('mysqldump -u [utilisateur] -p[mot_de_passe] [nom_de_la_base_de_données] > backup.sql');
